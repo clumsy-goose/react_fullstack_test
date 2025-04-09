@@ -13,11 +13,11 @@ import Like from './app/components/like.jsx';
 ReactDOM.render(
 	<div>
 		<Search />
-		<Header source="http://localhost:3000/data/swiper" />
-		<Otherapp source="http://localhost:3000/data/otherapp" />
-		<Spike source="http://localhost:3000/data/spike" />
-		<More source="http://localhost:3000/data/more" />
-		<Like source="http://localhost:3000/data/like" />
+		<Header source="http://120.24.249.66:3000/data/swiper" />
+		<Otherapp source="http://120.24.249.66:3000/data/otherapp" />
+		<Spike source="http://120.24.249.66:3000/data/spike" />
+		<More source="http://120.24.249.66:3000/data/more" />
+		<Like source="http://120.24.249.66:3000/data/like" />
 	</div>, 
 	document.querySelector("#myApp")
 );
