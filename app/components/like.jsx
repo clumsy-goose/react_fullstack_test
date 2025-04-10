@@ -1,7 +1,7 @@
 
 require('./like.css');
 let jsonp = require('../util/jsonp.js');
-let getFetch = require('../util/getFetch.js');
+let getFetch = require('../util/fetch.js');
 import React from 'react'; 
 
 let Like = React.createClass({
