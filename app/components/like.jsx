@@ -1,6 +1,7 @@
 
 require('./like.css');
 let jsonp = require('../util/jsonp.js');
+let getFetch = require('../util/getFetch.js');
 import React from 'react'; 
 
 let Like = React.createClass({
@@ -23,6 +24,8 @@ let Like = React.createClass({
 				reject("get data error!")
 			}
 		})
+		const res = getFetch('like');
+		console.log(res);
 	},
 
 	render: function() {
