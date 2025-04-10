@@ -24,8 +24,13 @@ let Like = React.createClass({
 				reject("get data error!")
 			}
 		})
-		const res = getFetch('like');
-		console.log(res);
+		let res;
+		getFetch('like').then((data) => {
+
+				res = data;
+				console.log(res);
+		});
+		console.log("🚀 ~ res:", res)
 	},
 
 	render: function() {
@@ -57,5 +62,6 @@ let Like = React.createClass({
 		);
 	}
 })
+		
 
 module.exports = Like;
